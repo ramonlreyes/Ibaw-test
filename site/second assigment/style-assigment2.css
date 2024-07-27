@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    position: relative;
+    width: 200px;
+    clear: both;
+    margin-bottom: 10px;
+}
+#logo{
+position: absolute;
+top: 0;
+right: 0;
+}
+#collapsable-nav{
+    text-align: center;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+.collapse{
+    overflow: hidden;
+}
+.menü1 .menü2 .menü3{
+    position: relative;
+}
+#nav-list a{
+    font-weight: 400;
+    font-style: oblique;
+    color: chocolate;
+    margin-bottom: 5px;
+}
+
+#Chicken{
+    float: right;
+    clear: both;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(200, 221, 107);
+    text-align: center;
+    margin: -10px -10px 0px 0px;
+}
+#Beef{
+    float: right;
+    clear: both;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(83, 62, 34);
+    text-align: center;
+    margin: -10px -10px 0px 0px;
+}
+#Sushi{
+    float: right;
+    clear: both;
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(114, 108, 96);
+    text-align: center;
+    margin: -10px -10px 0px 0px;
+}
+
+
+@media (min-width: 992px){
+ .container {
+    min-width: 100%;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 991px;
+    }
+    }
+
+@media (max-widht: 767px){
+    .container{
+        max-width: 767px;
+    }
+    }
+
+.title{
+    font-size: 54px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: cornsilk;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: coral;
+}
+
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row-md{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+
+}
+.row-md > div{
+    padding: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(161, 226, 205);
+}
+
+.col-lg-3{
+    max-width: 33.333%;
+    flex: 0 0 33.333%;
+}
+
+.col-md-2{
+    max-width: 50%;
+    flex: 0 0 50%;
+
+}
+
+.col-sm-1{
+    max-width: 100%;
+    flex: 0 0 100%;
+
+}
+
+
+@media (min-width: 992px){
+    .col-lg-3{
+        max-width: 33.333%;
+        flex: 0 0 33.333%;
+    }
+   }
+   
+   @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-2{
+        max-width: 500%;
+        flex: 0 0 50%;
+    }
+       }
+   
+   @media (max-widht: 767px){
+    .col-sm-1{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+       }
